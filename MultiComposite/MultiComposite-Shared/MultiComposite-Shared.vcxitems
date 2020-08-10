@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{c8027efc-18fb-4252-800f-6ab8822ed7e6}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\VRClient-Stub\Logger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IpcPipe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IpcTools.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VRIpcConstants.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IpcPipe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VRIpcConstants.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Win32Ipc.h" />
+  </ItemGroup>
+</Project>

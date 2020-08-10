@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\VirtualCompositor">
+      <UniqueIdentifier>{fcc02284-b580-479c-8fb3-9ec04856977b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VirtualInput">
+      <UniqueIdentifier>{a9d78def-a54f-4b40-b508-7b47d8f15af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VirtualResources">
+      <UniqueIdentifier>{952fc142-839d-47a1-90f0-65c207a82e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VirtualSystem">
+      <UniqueIdentifier>{9a60ea8f-6834-49af-987b-a8bbe9207f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VRClient">
+      <UniqueIdentifier>{27a08b4c-bbe3-41fc-8313-8a05c7348806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VirtualCompositor">
+      <UniqueIdentifier>{92c45a0b-b897-4ec0-817e-3a2d1b6a270c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VirtualInput">
+      <UniqueIdentifier>{3ca92cc4-59c2-4621-a9e0-d821bbbcd1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VirtualResources">
+      <UniqueIdentifier>{86f9ecbc-66a0-49d2-874f-d41bb80dd22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VirtualSystem">
+      <UniqueIdentifier>{d2e931f2-8bdd-4559-b45e-6c984b4dfb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VRClient">
+      <UniqueIdentifier>{60824d70-7890-4f56-9cf6-108a341b03ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_012.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_013.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_014.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_015.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_016.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_017.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_018.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_019.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_020.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_021.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_022.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_024.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_026.cpp">
+      <Filter>Source Files\VirtualCompositor</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInput\VirtualInput_004.cpp">
+      <Filter>Source Files\VirtualInput</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInput\VirtualInput_005.cpp">
+      <Filter>Source Files\VirtualInput</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInput\VirtualInput_006.cpp">
+      <Filter>Source Files\VirtualInput</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInput\VirtualInput_007.cpp">
+      <Filter>Source Files\VirtualInput</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInput\VirtualInput_010.cpp">
+      <Filter>Source Files\VirtualInput</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualResources\VirtualResources_001.cpp">
+      <Filter>Source Files\VirtualResources</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_011.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_012.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_014.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_015.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_016.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_017.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_019.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_020.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem\VirtualSystem_021.cpp">
+      <Filter>Source Files\VirtualSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="VRClient\VRClient_002.cpp">
+      <Filter>Source Files\VRClient</Filter>
+    </ClCompile>
+    <ClCompile Include="VRClient\VRClient_003.cpp">
+      <Filter>Source Files\VRClient</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualCompositor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VRClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_012.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_013.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_014.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_015.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_016.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_017.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_018.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_019.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_020.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_021.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_022.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_024.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_026.h">
+      <Filter>Header Files\VirtualCompositor</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualInput\VirtualInput_004.h">
+      <Filter>Header Files\VirtualInput</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualInput\VirtualInput_005.h">
+      <Filter>Header Files\VirtualInput</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualInput\VirtualInput_006.h">
+      <Filter>Header Files\VirtualInput</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualInput\VirtualInput_007.h">
+      <Filter>Header Files\VirtualInput</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualInput\VirtualInput_010.h">
+      <Filter>Header Files\VirtualInput</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualResources\VirtualResources_001.h">
+      <Filter>Header Files\VirtualResources</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_011.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_012.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_014.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_015.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_016.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_017.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_019.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_020.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem\VirtualSystem_021.h">
+      <Filter>Header Files\VirtualSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VRClient\VRClient_002.h">
+      <Filter>Header Files\VRClient</Filter>
+    </ClInclude>
+    <ClInclude Include="VRClient\VRClient_003.h">
+      <Filter>Header Files\VRClient</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualCompositor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VRClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualResources.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

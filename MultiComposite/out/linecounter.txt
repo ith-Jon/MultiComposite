@@ -1,0 +1,1546 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-08-06 18:41:43
+count workspace : c:\Users\DrPotato\Documents\GitHub\MultiComposite\MultiComposite
+total files : 1503
+total code lines : 983860
+total comment lines : 10996
+total blank lines : 10025
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |             .h|          10193|           9440|           4695|    1.0|
+   |           .cpp|          11482|            320|           2625|    1.2|
+   |           .sln|             68|              0|              0| 0.0069|
+   |       .filters|            323|              0|              0|  0.033|
+   |       .vcxproj|            399|              0|              0|  0.041|
+   |      .vcxitems|             27|              0|              0| 0.0027|
+   |          .user|              8|              0|              0|0.00081|
+   |           .log|            114|              0|              0|  0.012|
+   |           .txt|          18320|             12|              0|    1.9|
+   |          .json|          37791|              0|            298|    3.8|
+   |           .bat|              1|              0|              0|0.00010|
+   |        .db-wal|              0|              0|              0|    0.0|
+   |.lastbuildstate|              6|              0|              0|0.00061|
+   |          .frag|            138|             23|             40|  0.014|
+   |    .vrsettings|            522|              0|             21|  0.053|
+   |   .vrresources|             55|              0|              0| 0.0056|
+   |           .psh|              8|              0|              2|0.00081|
+   |           .vsh|              9|              0|              2|0.00091|
+   |          .glsl|            633|            175|            197|  0.064|
+   |    .vrmanifest|             86|              0|             20| 0.0087|
+   |           .mtl|            826|              0|              3|  0.084|
+   |           .obj|         890861|              0|            175|     91|
+   |           .css|           8809|            111|           1698|   0.90|
+   |            .js|            812|            902|            129|  0.083|
+   |          .html|            526|              3|            108|  0.053|
+   |           .dir|              0|              0|              0|    0.0|
+   |           .svg|           1843|             10|             12|   0.19|
+   -------------------------------------------------------------------------
+.vs\MultiComposite\v16\.suo, it is a binary file.
+.vs\MultiComposite\v16\Browse.VC.db, it is a binary file.
+.vs\MultiComposite\v16\Browse.VC.opendb, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\12107e5f1fca1019\VIRTUALINPUT_010.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\1258413a154b3d10\VIRTUALCOMPOSITOR_022.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\127500a2851cd647\VIRTUALINPUT_007.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\143fa19500721257\VIRTUALCOMPOSITOR_016.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\1785b91b64e4d72a\COMPOSITOR.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\184510ec4d1473f5\VIRTUALSYSTEM_014.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\1a5ded8ec7d3f7fd\VIRTUALINPUT_005.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\1bfd10e3ac975083\WIN32IPC.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\20b9c7b3b1c3b4ee\VIRTUALRUNTIME.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\226382e709c744bf\VIRTUALINPUT.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\2864d262a88739b9\VIRTUALCOMPOSITOR_018.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\29d27ddf94c90cdf\VIRTUALSYSTEM.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\2beac21a05a8f000\VIRTUALCOMPOSITOR_019.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\2bf84c1811bedc88\VRIPCCONSTANTS.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\37e6e98a0bdde323\VIRTUALSYSTEM_012.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\3b556377ddac3663\WIN32IPC.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\3cb6c6dc15a3960e\VIRTUALSYSTEM_017.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\3fc34f736d9eb3c9\VIRTUALRESOURCES_001.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\407a47cbb1406b14\VIRTUALINPUT_004.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\40c86c6b2b078640\WIN32IPC.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\434a54ad2362a8e2\VIRTUALCOMPOSITOR_020.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\43524264fe28ce47\VIRTUALSYSTEM_016.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\4c5b5b8bddec5366\VRCLIENT.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\4d9aa9851b425938\VIRTUALCOMPOSITOR_012.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\50425aa0c2a0371b\VRIPCCONSTANTS.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\509d9b0647c7164d\VIRTUALRESOURCESBASE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\56a803bdbee3026b\VIRTUALINPUT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\56e6be83329afd55\VIRTUALCORRECTLAYOUT.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\5a3312f36471d78c\VIRTUALCOMPOSITOR_015.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\5c831d809314afe1\VRCLIENT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\5e0716d284ddff85\VIRTUALCOMPOSITOR_014.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\6490123906b13a02\VIRTUALINPUT_010.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\66a62a0c10b39e4b\VIRTUALSYSTEM_021.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\6b5562e90dba464e\GRAPHICSBACKEND.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\6b6bb043ed05cde3\VRCLIENT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\6e2ff562e9391d47\VIRTUALCOMPOSITOR.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\6f63314c69dcd314\VIRTUALCOMPOSITOR.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\709a7c792d1eb23\VIRTUALINPUT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\7382f872e33d0e6\VIRTUALINPUT_006.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\77e551b5e5e8c893\VIRTUALCOMPOSITOR_012.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\8041f8c841c72098\VRCLIENT_002.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\865dd518f55463ab\MULTICOMPOSITE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\86c8d7dbd55d6d27\VIRTUALCOMPOSITOR.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\86e3b8ba2fd97264\MAIN.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\877618f5dcf3984c\VIRTUALINPUT.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\894d2100f18908c8\VIRTUALRESOURCES.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\8db4db26292ade00\VRCLIENTBASE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\8e3e1380a11dcc49\IPCTOOLS.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\90fa4902b9e757a4\DLLMAIN.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\931331f0da8c9168\VRIPCCONSTANTS.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\99884c5e173529b8\VIRTUALINPUT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\9d7d66a648f38e3e\VIRTUALRESOURCES_001.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\a1a3625f640b2b06\VRCLIENT.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\a52e8b197c7ddefb\VRCLIENT_002.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\a542e721b7195347\VRTYPES.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\a708fc60fcfb92b0\VIRTUALSYSTEM_019.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\aa39b207d53383db\VIRTUALCOMPOSITOR_021.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\aad83be1db6a752b\VIRTUALRESOURCES.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\ab2f82609a929b93\D3D11BACKEND.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\ac9692a246058de1\VIRTUALINPUT_010.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\af0359b7bafa7ba\IPCTOOLS.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\b427cd02f95c6134\VIRTUALCOMPOSITOR_026.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\b52f5b7710064a3b\IVRCOMPOSITORTYPES.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\bd985199c979e0e\VIRTUALINPUT_006.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\be1031c04811803f\VIRTUALSYSTEM.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\c0a9ca4384556bb9\VIRTUALSYSTEMBASE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\c0d76454da50d018\VIRTUALSYSTEM_011.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\c3c35ce0ee11fe43\VRCLIENT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\c616939180d2c685\VRCLIENT.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\cae4fbf9402c8bda\VIRTUALINPUTBASE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\cea82d2db8e6cc06\VIRTUALCOMPOSITOR_024.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\ced6a4036e3059f9\COMPOSITOR.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\ddb47b7654dcbec4\LOGGER.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\e11bd54a44c75dcf\VIRTUALINPUT_007.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\e3184d6041c4427c\VIRTUALINPUT_004.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\e767cf29d4087bf5\VIRTUALINPUT_005.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\eb1be81e417aee20\WIN32IPC.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\ef07945ce79c46fa\VIRTUALCOMPOSITOR_013.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\f24ef0237aad2af1\VIRTUALCOMPOSITORBASE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\f27d96267927b633\VIRTUALCOMPOSITOR_012.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\f4c01447d33b7c02\VRCLIENT_003.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\f4dd7f8918a795d8\VIRTUALSYSTEM_011.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\f7a36ccc8e960bd2\VIRTUALSYSTEM_020.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\f7c8f162f4c57a9e\VIRTUALCOMPOSITOR_017.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\fac080ba9d3c65a5\SHAREDSTATE.ipch, it is a binary file.
+.vs\MultiComposite\v16\ipch\AutoPCH\fed8608cee92c2bd\VIRTUALRESOURCES_001.ipch, it is a binary file.
+.vs\MultiComposite\v16\Solution.VC.db, it is a binary file.
+.vs\MultiComposite\v16\Solution.VC.db-shm, it is a binary file.
+.vs\MultiComposite\v16\Solution.VC.db-wal, code is 0, comment is 0, blank is 0.
+Debug\VRClient-Stub.dll, it is a binary file.
+Debug\VRClient-Stub.ilk, it is a binary file.
+Debug\VRClient-Stub.pdb, it is a binary file.
+External\openvr\bin\openvr_api.dll, it is a binary file.
+External\openvr\bin\openvr_api.pdb, it is a binary file.
+External\openvr\includes\ivrclientcore.h, code is 17, comment is 8, blank is 11.
+External\openvr\includes\openvr.h, code is 3016, comment is 1506, blank is 937.
+External\openvr\includes\openvr_driver.h, code is 2774, comment is 806, blank is 676.
+External\openvr\lib\openvr_api.lib, it is a binary file.
+MultiComposite-Shared\IpcPipe.cpp, code is 0, comment is 0, blank is 0.
+MultiComposite-Shared\IpcPipe.h, code is 1, comment is 0, blank is 0.
+MultiComposite-Shared\IpcTools.h, code is 24, comment is 0, blank is 4.
+MultiComposite-Shared\MultiComposite-Shared.vcxitems, code is 27, comment is 0, blank is 0.
+MultiComposite-Shared\MultiComposite-Shared.vcxitems.filters, code is 14, comment is 0, blank is 0.
+MultiComposite-Shared\VRIpcConstants.cpp, code is 14, comment is 0, blank is 3.
+MultiComposite-Shared\VRIpcConstants.h, code is 67, comment is 8, blank is 15.
+MultiComposite-Shared\Win32Ipc.h, code is 220, comment is 0, blank is 43.
+MultiComposite.sln, code is 68, comment is 0, blank is 0.
+MultiComposite\Compositor.cpp, code is 33, comment is 0, blank is 8.
+MultiComposite\Compositor.h, code is 27, comment is 4, blank is 3.
+MultiComposite\D3D11Backend.cpp, code is 4, comment is 0, blank is 1.
+MultiComposite\D3D11Backend.h, code is 13, comment is 0, blank is 2.
+MultiComposite\Debug\Main.obj, it is a binary file.
+MultiComposite\Debug\MultiComposite.log, code is 2, comment is 0, blank is 0.
+MultiComposite\Debug\MultiComposite.tlog\CL.command.1.tlog, it is a binary file.
+MultiComposite\Debug\MultiComposite.tlog\CL.read.1.tlog, it is a binary file.
+MultiComposite\Debug\MultiComposite.tlog\CL.write.1.tlog, it is a binary file.
+MultiComposite\Debug\MultiComposite.tlog\link.command.1.tlog, it is a binary file.
+MultiComposite\Debug\MultiComposite.tlog\link.read.1.tlog, it is a binary file.
+MultiComposite\Debug\MultiComposite.tlog\link.write.1.tlog, it is a binary file.
+MultiComposite\Debug\MultiComposite.tlog\MultiComposite.lastbuildstate, code is 2, comment is 0, blank is 0.
+MultiComposite\Debug\OVRDelegator.obj, it is a binary file.
+MultiComposite\Debug\vc142.idb, it is a binary file.
+MultiComposite\Debug\vc142.pdb, it is a binary file.
+MultiComposite\Debug\VirtualRuntime.obj, it is a binary file.
+MultiComposite\Main.cpp, code is 24, comment is 4, blank is 12.
+MultiComposite\MultiComposite.cpp, code is 106, comment is 5, blank is 29.
+MultiComposite\MultiComposite.h, code is 37, comment is 2, blank is 13.
+MultiComposite\MultiComposite.vcxproj, code is 161, comment is 0, blank is 0.
+MultiComposite\MultiComposite.vcxproj.filters, code is 36, comment is 0, blank is 0.
+MultiComposite\MultiComposite.vcxproj.user, code is 4, comment is 0, blank is 0.
+MultiComposite\strtools_public.cpp, code is 328, comment is 74, blank is 58.
+MultiComposite\strtools_public.h, code is 70, comment is 38, blank is 30.
+MultiComposite\x64\Debug\Compositor.obj, it is a binary file.
+MultiComposite\x64\Debug\IpcPipe.obj, it is a binary file.
+MultiComposite\x64\Debug\Main.obj, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.Build.CppClean.log, code is 0, comment is 0, blank is 0.
+MultiComposite\x64\Debug\MultiComposite.log, code is 2, comment is 0, blank is 0.
+MultiComposite\x64\Debug\MultiComposite.obj, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\CL.command.1.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\CL.read.1.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\CL.write.1.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\link.command.1.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\link.read.1.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\link.write.1.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.tlog\MultiComposite.lastbuildstate, code is 2, comment is 0, blank is 0.
+MultiComposite\x64\Debug\MultiComposite.tlog\MultiComposite.write.1u.tlog, it is a binary file.
+MultiComposite\x64\Debug\MultiComposite.vcxproj.FileListAbsolute.txt, code is 0, comment is 0, blank is 0.
+MultiComposite\x64\Debug\vc142.idb, it is a binary file.
+MultiComposite\x64\Debug\vc142.pdb, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_012.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_013.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_014.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_015.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_016.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_017.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_018.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_019.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_020.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_021.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_022.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_024.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualCompositor_026.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualInput.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualInput_004.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualInput_005.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualInput_006.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualInput_007.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualInput_010.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualResources_001.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualRuntime.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_011.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_012.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_014.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_015.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_016.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_017.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_019.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_020.obj, it is a binary file.
+MultiComposite\x64\Debug\VirtualSystem_021.obj, it is a binary file.
+MultiComposite\x64\Debug\VRClient.obj, it is a binary file.
+MultiComposite\x64\Debug\VRClient_002.obj, it is a binary file.
+MultiComposite\x64\Debug\VRClient_003.obj, it is a binary file.
+MultiComposite\x64\Debug\VRIpcConstants.obj, it is a binary file.
+MultiComposite\x64\Debug\Win32Ipc.obj, it is a binary file.
+VRClient-Stub\DllMain.cpp, code is 1, comment is 0, blank is 0.
+VRClient-Stub\json.h, code is 1011, comment is 1020, blank is 339.
+VRClient-Stub\Logger.h, code is 15, comment is 0, blank is 1.
+VRClient-Stub\VirtualCommon.h, code is 49, comment is 15, blank is 15.
+VRClient-Stub\VirtualCompositor.cpp, code is 285, comment is 63, blank is 90.
+VRClient-Stub\VirtualCompositor.h, code is 88, comment is 119, blank is 53.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_012.cpp, code is 242, comment is 1, blank is 55.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_012.h, code is 69, comment is 95, blank is 54.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_013.cpp, code is 251, comment is 1, blank is 57.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_013.h, code is 71, comment is 97, blank is 56.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_014.cpp, code is 269, comment is 1, blank is 61.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_014.h, code is 75, comment is 102, blank is 60.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_015.cpp, code is 341, comment is 1, blank is 77.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_015.h, code is 91, comment is 116, blank is 70.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_016.cpp, code is 323, comment is 1, blank is 73.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_016.h, code is 87, comment is 107, blank is 66.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_017.cpp, code is 332, comment is 1, blank is 75.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_017.h, code is 89, comment is 143, blank is 69.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_018.cpp, code is 350, comment is 1, blank is 79.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_018.h, code is 93, comment is 147, blank is 72.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_019.cpp, code is 368, comment is 1, blank is 83.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_019.h, code is 97, comment is 159, blank is 77.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_020.cpp, code is 377, comment is 1, blank is 85.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_020.h, code is 99, comment is 161, blank is 77.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_021.cpp, code is 393, comment is 3, blank is 89.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_021.h, code is 103, comment is 209, blank is 80.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_022.cpp, code is 422, comment is 1, blank is 95.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_022.h, code is 110, comment is 224, blank is 87.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_024.cpp, code is 440, comment is 1, blank is 99.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_024.h, code is 115, comment is 231, blank is 90.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_026.cpp, code is 467, comment is 1, blank is 105.
+VRClient-Stub\VirtualCompositor\VirtualCompositor_026.h, code is 121, comment is 239, blank is 96.
+VRClient-Stub\VirtualInput.cpp, code is 160, comment is 0, blank is 40.
+VRClient-Stub\VirtualInput.h, code is 65, comment is 69, blank is 52.
+VRClient-Stub\VirtualInput\VirtualInput_004.cpp, code is 170, comment is 1, blank is 40.
+VRClient-Stub\VirtualInput\VirtualInput_004.h, code is 49, comment is 62, blank is 49.
+VRClient-Stub\VirtualInput\VirtualInput_005.cpp, code is 224, comment is 1, blank is 52.
+VRClient-Stub\VirtualInput\VirtualInput_005.h, code is 61, comment is 78, blank is 63.
+VRClient-Stub\VirtualInput\VirtualInput_006.cpp, code is 242, comment is 1, blank is 56.
+VRClient-Stub\VirtualInput\VirtualInput_006.h, code is 65, comment is 86, blank is 67.
+VRClient-Stub\VirtualInput\VirtualInput_007.cpp, code is 260, comment is 1, blank is 60.
+VRClient-Stub\VirtualInput\VirtualInput_007.h, code is 69, comment is 94, blank is 79.
+VRClient-Stub\VirtualInput\VirtualInput_010.cpp, code is 296, comment is 1, blank is 68.
+VRClient-Stub\VirtualInput\VirtualInput_010.h, code is 83, comment is 108, blank is 90.
+VRClient-Stub\VirtualResources.cpp, code is 10, comment is 2, blank is 2.
+VRClient-Stub\VirtualResources.h, code is 10, comment is 8, blank is 4.
+VRClient-Stub\VirtualResources\VirtualResources_001.cpp, code is 26, comment is 5, blank is 7.
+VRClient-Stub\VirtualResources\VirtualResources_001.h, code is 17, comment is 16, blank is 9.
+VRClient-Stub\VirtualRuntime.cpp, code is 1, comment is 0, blank is 1.
+VRClient-Stub\VirtualRuntime.h, code is 9, comment is 0, blank is 1.
+VRClient-Stub\VirtualSystem.cpp, code is 236, comment is 58, blank is 58.
+VRClient-Stub\VirtualSystem.h, code is 86, comment is 209, blank is 75.
+VRClient-Stub\VirtualSystem\VirtualSystem_011.cpp, code is 422, comment is 1, blank is 93.
+VRClient-Stub\VirtualSystem\VirtualSystem_011.h, code is 105, comment is 326, blank is 124.
+VRClient-Stub\VirtualSystem\VirtualSystem_012.cpp, code is 404, comment is 1, blank is 92.
+VRClient-Stub\VirtualSystem\VirtualSystem_012.h, code is 101, comment is 312, blank is 118.
+VRClient-Stub\VirtualSystem\VirtualSystem_014.cpp, code is 404, comment is 1, blank is 91.
+VRClient-Stub\VirtualSystem\VirtualSystem_014.h, code is 101, comment is 322, blank is 113.
+VRClient-Stub\VirtualSystem\VirtualSystem_015.cpp, code is 404, comment is 1, blank is 91.
+VRClient-Stub\VirtualSystem\VirtualSystem_015.h, code is 101, comment is 318, blank is 113.
+VRClient-Stub\VirtualSystem\VirtualSystem_016.cpp, code is 413, comment is 1, blank is 93.
+VRClient-Stub\VirtualSystem\VirtualSystem_016.h, code is 103, comment is 346, blank is 115.
+VRClient-Stub\VirtualSystem\VirtualSystem_017.cpp, code is 413, comment is 1, blank is 93.
+VRClient-Stub\VirtualSystem\VirtualSystem_017.h, code is 103, comment is 352, blank is 115.
+VRClient-Stub\VirtualSystem\VirtualSystem_019.cpp, code is 431, comment is 1, blank is 97.
+VRClient-Stub\VirtualSystem\VirtualSystem_019.h, code is 107, comment is 372, blank is 119.
+VRClient-Stub\VirtualSystem\VirtualSystem_020.cpp, code is 440, comment is 1, blank is 99.
+VRClient-Stub\VirtualSystem\VirtualSystem_020.h, code is 109, comment is 388, blank is 123.
+VRClient-Stub\VirtualSystem\VirtualSystem_021.cpp, code is 431, comment is 1, blank is 97.
+VRClient-Stub\VirtualSystem\VirtualSystem_021.h, code is 107, comment is 382, blank is 120.
+VRClient-Stub\VRClient-Stub.vcxproj, code is 238, comment is 0, blank is 0.
+VRClient-Stub\VRClient-Stub.vcxproj.filters, code is 273, comment is 0, blank is 0.
+VRClient-Stub\VRClient-Stub.vcxproj.user, code is 4, comment is 0, blank is 0.
+VRClient-Stub\VRClient.cpp, code is 665, comment is 66, blank is 147.
+VRClient-Stub\VRClient.h, code is 44, comment is 8, blank is 22.
+VRClient-Stub\VRClient\VRClient_002.cpp, code is 30, comment is 7, blank is 7.
+VRClient-Stub\VRClient\VRClient_002.h, code is 25, comment is 14, blank is 14.
+VRClient-Stub\VRClient\VRClient_003.cpp, code is 30, comment is 7, blank is 7.
+VRClient-Stub\VRClient\VRClient_003.h, code is 24, comment is 14, blank is 14.
+VRClient-Stub\x64\Debug\DllMain.obj, it is a binary file.
+VRClient-Stub\x64\Debug\IpcPipe.obj, it is a binary file.
+VRClient-Stub\x64\Debug\vc142.idb, it is a binary file.
+VRClient-Stub\x64\Debug\vc142.pdb, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_012.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_013.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_014.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_015.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_016.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_017.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_018.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_019.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_020.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_021.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_022.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_024.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualCompositor_026.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualInput.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualInput_004.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualInput_005.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualInput_006.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualInput_007.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualInput_010.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualResources_001.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualRuntime.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_011.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_012.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_014.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_015.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_016.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_017.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_019.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_020.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VirtualSystem_021.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.Build.CppClean.log, code is 49, comment is 0, blank is 0.
+VRClient-Stub\x64\Debug\VRClient-Stub.log, code is 7, comment is 0, blank is 0.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\CL.command.1.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\CL.read.1.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\CL.write.1.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\link.command.1.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\link.read.1.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\link.write.1.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\VRClient-Stub.lastbuildstate, code is 2, comment is 0, blank is 0.
+VRClient-Stub\x64\Debug\VRClient-Stub.tlog\VRClient-Stub.write.1u.tlog, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient-Stub.vcxproj.FileListAbsolute.txt, code is 0, comment is 0, blank is 0.
+VRClient-Stub\x64\Debug\VRClient.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient_002.obj, it is a binary file.
+VRClient-Stub\x64\Debug\VRClient_003.obj, it is a binary file.
+VRClient-Stub\x64\Debug\vrclient_x64.Build.CppClean.log, code is 0, comment is 0, blank is 0.
+VRClient-Stub\x64\Debug\vrclient_x64.dll.Build.CppClean.log, code is 54, comment is 0, blank is 0.
+VRClient-Stub\x64\Debug\VRIpcConstants.obj, it is a binary file.
+VRClient-Stub\x64\Debug\Win32Ipc.obj, it is a binary file.
+x64\Debug\active.txt, code is 0, comment is 0, blank is 0.
+x64\Debug\bin\openvr_api.dll, it is a binary file.
+x64\Debug\bin\version.txt, code is 1, comment is 0, blank is 0.
+x64\Debug\bin\vrclient.dll, it is a binary file.
+x64\Debug\bin\vrclient_x64.dll, it is a binary file.
+x64\Debug\bin\vrclient_x64.exp, it is a binary file.
+x64\Debug\bin\vrclient_x64.ilk, it is a binary file.
+x64\Debug\bin\vrclient_x64.lib, it is a binary file.
+x64\Debug\bin\vrclient_x64.pdb, it is a binary file.
+x64\Debug\log.txt, code is 116, comment is 12, blank is 0.
+x64\Debug\log_deepnormal.txt, code is 3132, comment is 0, blank is 0.
+x64\Debug\log_overlay.txt, code is 8386, comment is 0, blank is 0.
+x64\Debug\log_scene.txt, code is 6467, comment is 0, blank is 0.
+x64\Debug\manifest.json, code is 0, comment is 0, blank is 0.
+x64\Debug\MultiComposite.exe, it is a binary file.
+x64\Debug\MultiComposite.exp, it is a binary file.
+x64\Debug\MultiComposite.ilk, it is a binary file.
+x64\Debug\MultiComposite.lib, it is a binary file.
+x64\Debug\MultiComposite.pdb, it is a binary file.
+x64\Debug\openvr_api.dll, it is a binary file.
+x64\Debug\openvr_api.pdb, it is a binary file.
+x64\Debug\resources\anims\bonemask_aux.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\bonemask_index.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\bonemask_middle.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\bonemask_pinky.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\bonemask_ring.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\bonemask_thumb.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\bonemask_thumb_and_wrist.txt, code is 31, comment is 0, blank is 0.
+x64\Debug\resources\anims\hand_right_closeanim.fbx, it is a binary file.
+x64\Debug\resources\anims\hand_right_closeanim.glb, it is a binary file.
+x64\Debug\resources\anims\hand_right_poses.fbx, it is a binary file.
+x64\Debug\resources\anims\hand_right_poses.glb, it is a binary file.
+x64\Debug\resources\answer.png, it is a binary file.
+x64\Debug\resources\backgrounds\aurorasky.png, it is a binary file.
+x64\Debug\resources\backgrounds\aurorasky_thumbnail.png, it is a binary file.
+x64\Debug\resources\backgrounds\night_mountains.png, it is a binary file.
+x64\Debug\resources\backgrounds\night_mountains_thumbnail.png, it is a binary file.
+x64\Debug\resources\backgrounds\transition_background.png, it is a binary file.
+x64\Debug\resources\backgrounds\transition_background_thumbnail.png, it is a binary file.
+x64\Debug\resources\backgrounds\viveNight.png, it is a binary file.
+x64\Debug\resources\black.png, it is a binary file.
+x64\Debug\resources\config\legacy_actions.json, code is 513, comment is 0, blank is 11.
+x64\Debug\resources\config\legacy_bindings_generic.json, code is 169, comment is 0, blank is 0.
+x64\Debug\resources\config\legacy_bindings_generic_hmd.json, code is 24, comment is 0, blank is 0.
+x64\Debug\resources\config\legacy_bindings_knuckles_ev1.json, code is 259, comment is 0, blank is 0.
+x64\Debug\resources\config\runtime.vrmanifest, code is 86, comment is 0, blank is 20.
+x64\Debug\resources\config\steamvr_dashboard_capsule.png, it is a binary file.
+x64\Debug\resources\config\vrcompositor_actions.json, code is 276, comment is 0, blank is 7.
+x64\Debug\resources\config\vrcompositor_actions_bg_BG.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_cs_CZ.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_da_DK.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_de_DE.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_el_GR.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_en_us.json, code is 53, comment is 0, blank is 8.
+x64\Debug\resources\config\vrcompositor_actions_es_ES.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_es_MX.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_fi_FI.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_fr_FR.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_hu_HU.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_it_IT.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_ja_JP.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_ko_KR.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_nb_NO.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_nl_NL.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_pl_PL.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_pt_BR.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_pt_PT.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_ro_RO.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_ru_RU.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_sv_SE.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_th_TH.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_tr_TR.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_uk_UA.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_vi_VN.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_zh_CN.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_actions_zh_TW.json, code is 53, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_bindings_gamepad.json, code is 198, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_bindings_generic.json, code is 294, comment is 0, blank is 3.
+x64\Debug\resources\config\vrcompositor_bindings_generic_hmd.json, code is 23, comment is 0, blank is 2.
+x64\Debug\resources\config\vrcompositor_bindings_holographic.json, code is 664, comment is 0, blank is 3.
+x64\Debug\resources\config\vrcompositor_bindings_knuckles.json, code is 464, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_bindings_knuckles_ev1.json, code is 584, comment is 0, blank is 6.
+x64\Debug\resources\config\vrcompositor_bindings_vive.json, code is 51, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_bindings_vive_controller.json, code is 408, comment is 0, blank is 0.
+x64\Debug\resources\config\vrcompositor_bindings_vive_pro.json, code is 78, comment is 0, blank is 0.
+x64\Debug\resources\darkgrey.png, it is a binary file.
+x64\Debug\resources\distort\gl_bringup.psh, code is 8, comment is 0, blank is 2.
+x64\Debug\resources\distort\gl_bringup.vsh, code is 9, comment is 0, blank is 2.
+x64\Debug\resources\distort\ps.glsl, code is 57, comment is 22, blank is 24.
+x64\Debug\resources\distort\ps_curved.glsl, code is 116, comment is 30, blank is 33.
+x64\Debug\resources\distort\ps_flat.glsl, code is 106, comment is 30, blank is 33.
+x64\Debug\resources\distort\psaa_curved.glsl, code is 128, comment is 30, blank is 36.
+x64\Debug\resources\distort\psaa_flat.glsl, code is 118, comment is 30, blank is 36.
+x64\Debug\resources\distort\vs.glsl, code is 44, comment is 15, blank is 15.
+x64\Debug\resources\distort\vs_reproject.glsl, code is 64, comment is 18, blank is 20.
+x64\Debug\resources\fonts\debug.spritefont, it is a binary file.
+x64\Debug\resources\gc\250_v0.gc, it is a binary file.
+x64\Debug\resources\GLOverlay_v0.frag, code is 138, comment is 23, blank is 40.
+x64\Debug\resources\icon_steamvr_desktop.png, it is a binary file.
+x64\Debug\resources\icons\base_status_error.png, it is a binary file.
+x64\Debug\resources\icons\base_status_off.png, it is a binary file.
+x64\Debug\resources\icons\base_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\base_status_ready_alert.png, it is a binary file.
+x64\Debug\resources\icons\base_status_ready_low.png, it is a binary file.
+x64\Debug\resources\icons\base_status_searching.gif, it is a binary file.
+x64\Debug\resources\icons\base_status_searching_alert.gif, it is a binary file.
+x64\Debug\resources\icons\base_status_standby.png, it is a binary file.
+x64\Debug\resources\icons\controller_status_error.png, it is a binary file.
+x64\Debug\resources\icons\controller_status_off.png, it is a binary file.
+x64\Debug\resources\icons\controller_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\controller_status_ready_alert.png, it is a binary file.
+x64\Debug\resources\icons\controller_status_ready_low.png, it is a binary file.
+x64\Debug\resources\icons\controller_status_searching.gif, it is a binary file.
+x64\Debug\resources\icons\controller_status_searching_alert.gif, it is a binary file.
+x64\Debug\resources\icons\controller_status_standby.png, it is a binary file.
+x64\Debug\resources\icons\driver4vr_status_off.png, it is a binary file.
+x64\Debug\resources\icons\driver4vr_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\driver4vr_status_standby.png, it is a binary file.
+x64\Debug\resources\icons\headset_status_error.png, it is a binary file.
+x64\Debug\resources\icons\headset_status_off.png, it is a binary file.
+x64\Debug\resources\icons\headset_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\headset_status_ready_alert.png, it is a binary file.
+x64\Debug\resources\icons\headset_status_ready_low.png, it is a binary file.
+x64\Debug\resources\icons\headset_status_searching.gif, it is a binary file.
+x64\Debug\resources\icons\headset_status_searching_alert.gif, it is a binary file.
+x64\Debug\resources\icons\headset_status_standby.png, it is a binary file.
+x64\Debug\resources\icons\invalid_status.6e6c89c9.png, it is a binary file.
+x64\Debug\resources\icons\invalid_status.b4bfb144.png, it is a binary file.
+x64\Debug\resources\icons\invalid_status.png, it is a binary file.
+x64\Debug\resources\icons\kinect_status_off.png, it is a binary file.
+x64\Debug\resources\icons\kinect_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\other_status_error.png, it is a binary file.
+x64\Debug\resources\icons\other_status_off.png, it is a binary file.
+x64\Debug\resources\icons\other_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\other_status_ready_alert.png, it is a binary file.
+x64\Debug\resources\icons\other_status_ready_low.png, it is a binary file.
+x64\Debug\resources\icons\other_status_searching.gif, it is a binary file.
+x64\Debug\resources\icons\other_status_searching_alert.gif, it is a binary file.
+x64\Debug\resources\icons\other_status_standby.png, it is a binary file.
+x64\Debug\resources\icons\tracker_status_error.png, it is a binary file.
+x64\Debug\resources\icons\tracker_status_off.png, it is a binary file.
+x64\Debug\resources\icons\tracker_status_ready.png, it is a binary file.
+x64\Debug\resources\icons\tracker_status_ready_alert.png, it is a binary file.
+x64\Debug\resources\icons\tracker_status_ready_low.png, it is a binary file.
+x64\Debug\resources\icons\tracker_status_searching.gif, it is a binary file.
+x64\Debug\resources\icons\tracker_status_searching_alert.gif, it is a binary file.
+x64\Debug\resources\icons\tracker_status_standby.png, it is a binary file.
+x64\Debug\resources\ignore.png, it is a binary file.
+x64\Debug\resources\input\generic_controller.png, it is a binary file.
+x64\Debug\resources\input\generic_hmd.png, it is a binary file.
+x64\Debug\resources\notification-phone.png, it is a binary file.
+x64\Debug\resources\overlay.cso, it is a binary file.
+x64\Debug\resources\overlay_pointer.png, it is a binary file.
+x64\Debug\resources\overlay_pointer_circle.png, it is a binary file.
+x64\Debug\resources\overlay_pointer_ibeam.png, it is a binary file.
+x64\Debug\resources\overlay_thumb_placeholder.png, it is a binary file.
+x64\Debug\resources\phone.png, it is a binary file.
+x64\Debug\resources\readme.txt, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\reflections\dashboard_lights.png, it is a binary file.
+x64\Debug\resources\rendermodels\arrow\arrow.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\arrow\arrow.obj, code is 1216, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\arrow\arrow.tga, it is a binary file.
+x64\Debug\resources\rendermodels\dk2_camera\dk2_camera.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\dk2_camera\dk2_camera.obj, code is 14036, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\dk2_camera\dk2_camera.tga, it is a binary file.
+x64\Debug\resources\rendermodels\dk2_hmd\dk2_hmd.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\dk2_hmd\dk2_hmd.obj, code is 32401, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\dk2_hmd\dk2_hmd.tga, it is a binary file.
+x64\Debug\resources\rendermodels\generic_controller\generic_controller.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\generic_controller\generic_controller.obj, code is 22062, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\generic_controller\generic_controller.tga, it is a binary file.
+x64\Debug\resources\rendermodels\generic_hmd\generic_hmd.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\generic_hmd\generic_hmd.obj, code is 30957, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\generic_hmd\generic_hmd.tga, it is a binary file.
+x64\Debug\resources\rendermodels\generic_tracker\generic_tracker.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\generic_tracker\generic_tracker.obj, code is 4958, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\generic_tracker\generic_tracker.tga, it is a binary file.
+x64\Debug\resources\rendermodels\hard_bounds\hard_bounds.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\hard_bounds\hard_bounds.obj, code is 14036, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\hard_bounds\hard_bounds.tga, it is a binary file.
+x64\Debug\resources\rendermodels\laser_pointer\laser_pointer.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\laser_pointer\laser_pointer.obj, code is 299, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\laser_pointer\laser_pointer.tga, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_01_boysandgirls\lh_basestation_01_boysandgirls.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\lh_basestation_01_boysandgirls\lh_basestation_01_boysandgirls.obj, code is 16007, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\lh_basestation_01_boysandgirls\lh_basestation_01_boysandgirls.tga, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_02_batman\lh_basestation_02_batman.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\lh_basestation_02_batman\lh_basestation_02_batman.obj, code is 16007, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\lh_basestation_02_batman\lh_basestation_02_batman.tga, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_03_robin\lh_basestation_03_robin.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\lh_basestation_03_robin\lh_basestation_03_robin.obj, code is 25411, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\lh_basestation_03_robin\lh_basestation_03_robin.tga, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_valve_gen2\lh_basestation_valve_gen2.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\lh_basestation_valve_gen2\lh_basestation_valve_gen2.obj, code is 5606, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\lh_basestation_valve_gen2\lh_basestation_valve_gen2.png, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_valve_gen2\lh_basestation_valve_gen2_spec.png, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_vive\lh_basestation_vive.json, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\lh_basestation_vive\lh_basestation_vive.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\lh_basestation_vive\lh_basestation_vive.obj, code is 7217, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\lh_basestation_vive\lh_basestation_vive.tga, it is a binary file.
+x64\Debug\resources\rendermodels\lh_basestation_vive\vive_base_thumbnail.png, it is a binary file.
+x64\Debug\resources\rendermodels\lighthouse_ufo\lighthouse_ufo.mtl, code is 15, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\lighthouse_ufo\lighthouse_ufo.obj, code is 29097, comment is 0, blank is 7.
+x64\Debug\resources\rendermodels\lighthouse_ufo\lighthouse_ufo.tga, it is a binary file.
+x64\Debug\resources\rendermodels\locator\locator.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\locator\locator.obj, code is 28004, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\locator\locator.png, it is a binary file.
+x64\Debug\resources\rendermodels\locator_one_sided\locator.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\locator_one_sided\locator.png, it is a binary file.
+x64\Debug\resources\rendermodels\locator_one_sided\locator_one_sided.obj, code is 22331, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\mptam_hmd_model\mptam_hmd_model.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\mptam_hmd_model\mptam_hmd_model.obj, code is 107246, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\mptam_hmd_model\mptam_hmd_texture.tga, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\external_controller01_col.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\external_controller01_spec.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left.json, code is 121, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left.obj, code is 30400, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_body.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_body.obj, code is 21231, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_button_enter.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_button_enter.obj, code is 710, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_button_x.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_button_x.obj, code is 966, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_button_y.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_button_y.obj, code is 966, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_grip.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_grip.obj, code is 1398, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_thumbstick.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_thumbstick.obj, code is 3771, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_trigger.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_left\oculus_cv1_controller_left_trigger.obj, code is 1376, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\external_controller01_col.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\external_controller01_spec.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right.json, code is 114, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right.obj, code is 30400, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_body.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_body.obj, code is 21231, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_button_a.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_button_a.obj, code is 966, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_button_b.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_button_b.obj, code is 966, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_button_home.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_button_home.obj, code is 710, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_grip.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_grip.obj, code is 1398, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_thumbstick.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_thumbstick.obj, code is 3771, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_trigger.mtl, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_cv1_controller_right\oculus_cv1_controller_right_trigger.obj, code is 1376, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\body.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\body.obj, code is 10029, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_enter.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_enter.obj, code is 377, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_grip.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_grip.obj, code is 909, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_x.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_x.obj, code is 588, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_y.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\button_y.obj, code is 588, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\left_diff.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\left_spec.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\oculus_rifts_controller_left.json, code is 122, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\oculus_rifts_controller_left.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\oculus_rifts_controller_left.obj, code is 14145, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\oculus_rifts_controller_left_thumbnail.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\thumbstick.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\thumbstick.obj, code is 1096, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\trigger.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_left\trigger.obj, code is 873, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\body.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\body.obj, code is 9914, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_a.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_a.obj, code is 573, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_b.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_b.obj, code is 571, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_enter.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_enter.obj, code is 348, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_grip.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\button_grip.obj, code is 892, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\oculus_rifts_controller_right.json, code is 122, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\oculus_rifts_controller_right.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\oculus_rifts_controller_right.obj, code is 14170, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\oculus_rifts_controller_right_thumbnail.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\right_diff.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\right_spec.png, it is a binary file.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\thumbstick.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\thumbstick.obj, code is 1085, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\trigger.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\oculus_rifts_controller_right\trigger.obj, code is 855, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\ref_controller\ref_controller.mtl, code is 12, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\ref_controller\ref_controller.obj, code is 33400, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\ref_controller\ref_controller.png, it is a binary file.
+x64\Debug\resources\rendermodels\rift_camera\oculus_camera_thumbnail.png, it is a binary file.
+x64\Debug\resources\rendermodels\rift_camera\rift_camera.json, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\rift_camera\rift_camera.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\rift_camera\rift_camera.obj, code is 1327, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\rift_camera\rift_camera.tga, it is a binary file.
+x64\Debug\resources\rendermodels\stage\stage.mtl, code is 79, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\stage\stage.obj, code is 58, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\stage\stage.tga, it is a binary file.
+x64\Debug\resources\rendermodels\steam_controller_02_freeman\steam_controller_02_freeman.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\steam_controller_02_freeman\steam_controller_02_freeman.obj, code is 31806, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\steam_controller_02_freeman\steam_controller_02_freeman.tga, it is a binary file.
+x64\Debug\resources\rendermodels\steam_controller_03_gordon\steam_controller_03_gordon.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\steam_controller_03_gordon\steam_controller_03_gordon.obj, code is 31293, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\steam_controller_03_gordon\steam_controller_03_gordon.tga, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_01_mrhat\vr_controller_01_mrhat.mtl, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_01_mrhat\vr_controller_01_mrhat.obj, code is 16722, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_01_mrhat\vr_controller_01_mrhat.tga, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_02_mrhat_puck\vr_controller_02_mrhat_puck.mtl, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_02_mrhat_puck\vr_controller_02_mrhat_puck.obj, code is 27777, comment is 0, blank is 6.
+x64\Debug\resources\rendermodels\vr_controller_02_mrhat_puck\vr_controller_02_mrhat_puck.tga, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\mrhat_controller_thumbnail.png, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b.json, code is 152, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b.obj, code is 27824, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b.tga, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_annotated.mtl, code is 14, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_annotated.obj, code is 53581, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_annotated.png, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_body.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_body.obj, code is 8749, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_button.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_button.obj, code is 513, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_Lgrip.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_Lgrip.obj, code is 747, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_Rgrip.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_Rgrip.obj, code is 747, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_system_button.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_system_button.obj, code is 513, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackhat.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackhat.obj, code is 9264, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackpad.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackpad.obj, code is 937, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackpad_touch.mtl, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackpad_touch.obj, code is 1537, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trackpad_touch.tga, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trigger.mtl, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_05_wireless_b\vr_controller_05_wireless_b_trigger.obj, code is 1919, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\body.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\body.obj, code is 32923, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\button.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\button.obj, code is 585, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\l_grip.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\l_grip.obj, code is 844, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\led.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\led.obj, code is 167, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\onepointfive_occ_bake.tga, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\onepointfive_spec.png, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\onepointfive_texture.png, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\r_grip.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\r_grip.obj, code is 844, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\scroll_wheel.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\scroll_wheel.obj, code is 1664, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\status.mtl, code is 8, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\status.obj, code is 569, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\status.png, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\sys_button.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\sys_button.obj, code is 585, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trackpad.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trackpad.obj, code is 1906, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trackpad_scroll_cut.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trackpad_scroll_cut.obj, code is 2962, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trackpad_touch.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trackpad_touch.obj, code is 932, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trigger.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\trigger.obj, code is 2404, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\vive_controller_thumbnail.png, it is a binary file.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\vr_controller_vive_1_5.json, code is 209, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\vr_controller_vive_1_5.mtl, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\rendermodels\vr_controller_vive_1_5\vr_controller_vive_1_5.obj, code is 40222, comment is 0, blank is 1.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_left_model.fbx, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_left_model.glb, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_left_model_slim.fbx, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_left_model_slim.glb, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_right_model.fbx, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_right_model.glb, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_right_model_slim.fbx, it is a binary file.
+x64\Debug\resources\rendermodels\vr_glove\vr_glove_right_model_slim.glb, it is a binary file.
+x64\Debug\resources\safe_mode_driver_whitelist.json, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\settings\default.vrsettings, code is 221, comment is 0, blank is 0.
+x64\Debug\resources\settings\driver_defaults.vrsettings, code is 5, comment is 0, blank is 0.
+x64\Debug\resources\settingsschema.vrsettings, code is 296, comment is 0, blank is 21.
+x64\Debug\resources\shaders\distort_cs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_cs_mc.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_aa_circles_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_aa_circles_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_aa_lines_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_aa_lines_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_aa_quads_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_aa_quads_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_curved_uvs_embedded_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_curved_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_fresnel_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_fresnel_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_grid_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_grid_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_hard_bounds_aa_lines_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_hard_bounds_aa_lines_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_hard_bounds_aa_squares_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_hard_bounds_aa_squares_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_multitap_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_ptnorm_curved_uvs_embedded_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_ptnorm_curved_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_ptnorm_uvs_embedded_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_ptnorm_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_reflect_multitap_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_reflect_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_uvs_embedded_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_vignette_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_vignette_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_geom_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_none_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_none_ps_gamma.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_none_ps_layered.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_none_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_panorama_dome_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_panorama_dome_radius_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_panorama_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_panorama_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_gamma.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_gamma_mc.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_gamma_mc_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_gamma_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_layered.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_layered_mc.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_layered_mc_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_layered_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_mc.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_mc_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_scene.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_scene0.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_ps_scene_blur.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_latest_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_layered.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_layered_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_reproject.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_reproject_mv.fxo, it is a binary file.
+x64\Debug\resources\shaders\distort_vs_reproject_nd.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_filter_x_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_filter_x_srgb_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_filter_y_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_filter_y_srgb_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_srgb_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\downsample_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\frame_hallucination_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\frame_hallucination_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\gpu_measurement_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\gpu_measurement_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\linepixelsim2_cs.fxo, it is a binary file.
+x64\Debug\resources\shaders\linepixelsim_cs.fxo, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_aa_circles_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_aa_circles_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_aa_lines_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_aa_lines_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_aa_quads_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_aa_quads_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_grid_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_grid_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_hard_bounds_aa_lines_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_hard_bounds_aa_lines_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_hard_bounds_aa_squares_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_hard_bounds_aa_squares_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_multitap_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_geom_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_none_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_none_ps_gamma.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_none_ps_layered.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_none_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_panorama_dome_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_panorama_dome_radius_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_panorama_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_panorama_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_curved.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_curved_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_flat.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_flat_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_gamma.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_gamma_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_gamma_mc_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_gamma_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_layered.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_layered_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_layered_mc_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_layered_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_mc_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_ps_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_psaa_curved.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_psaa_curved_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_psaa_flat.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_psaa_flat_mc.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_vs_layered.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_vs_layered_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_vs_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_vs_reproject.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\distort_vs_reproject_nd.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\downsample_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\downsample_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\panel_mask_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\panel_mask_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_edgefilter_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_edgefilter_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_lines_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_lines_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_reprojection_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_reprojection_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_undistort_ps.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_undistort_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\metal\tracked_camera_vs.metallib, it is a binary file.
+x64\Debug\resources\shaders\motion_filter_attenuation_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_filter_blur_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_filter_cost_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_filter_early_out_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_filter_median_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_filter_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_smoothing_debug_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\motion_smoothing_debug_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\motionvector_cost_cs.fxo, it is a binary file.
+x64\Debug\resources\shaders\msaa_resolve_2x_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\msaa_resolve_4x_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\msaa_resolve_8x_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\msaa_resolve_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\overlay_viewer_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\overlay_viewer_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\panel_mask_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\panel_mask_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\testgrid2_cs.fxo, it is a binary file.
+x64\Debug\resources\shaders\testgrid_cs.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_edgefilter_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_edgefilter_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_lines_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_lines_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_reprojection_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_reprojection_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_undistort_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_undistort_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\tracked_camera_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_convert_to_nv12_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_motion_attenuation_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_motion_color_diff_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_motion_cost_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_motion_vector_diff_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_motion_vectors_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_sint16_ps.fxo, it is a binary file.
+x64\Debug\resources\shaders\unlit_vs.fxo, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_cs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_cs_mc.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_aa_circles_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_aa_circles_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_aa_lines_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_aa_lines_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_aa_quads_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_aa_quads_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_curved_uvs_embedded_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_curved_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_fresnel_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_fresnel_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_grid_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_grid_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_hard_bounds_aa_lines_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_hard_bounds_aa_lines_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_hard_bounds_aa_squares_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_hard_bounds_aa_squares_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_multitap_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_ptnorm_curved_uvs_embedded_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_ptnorm_curved_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_ptnorm_uvs_embedded_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_ptnorm_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_reflect_multitap_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_reflect_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_uvs_embedded_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_vignette_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_vignette_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_geom_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_none_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_none_ps_gamma.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_none_ps_layered.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_none_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_panorama_dome_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_panorama_dome_radius_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_panorama_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_panorama_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_gamma.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_gamma_mc.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_gamma_mc_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_gamma_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_layered.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_layered_mc.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_layered_mc_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_layered_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_mc.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_mc_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_scene.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_scene0.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_scene0_blur.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_scene0y_blur.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_ps_scene_blur.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_latest_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_layered.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_layered_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_reproject.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_reproject_mv.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\distort_vs_reproject_nd.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_filter_x_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_filter_x_srgb_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_filter_y_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_filter_y_srgb_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_srgb_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\downsample_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\frame_hallucination_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\frame_hallucination_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\gpu_measurement_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\gpu_measurement_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\linepixelsim2_cs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\linepixelsim_cs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_attenuation_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_attenuation_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_filter_attenuation_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_filter_blur_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_filter_cost_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_filter_early_out_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_filter_median_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_filter_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_smoothing_debug_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motion_smoothing_debug_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\motionvector_cost_cs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\msaa_resolve_2x_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\msaa_resolve_4x_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\msaa_resolve_8x_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\msaa_resolve_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\overlay_viewer_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\overlay_viewer_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\panel_mask_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\panel_mask_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\testgrid2_cs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\testgrid_cs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_edgefilter_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_edgefilter_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_lines_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_lines_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_reprojection_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_reprojection_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_undistort_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_undistort_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\tracked_camera_vs.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_convert_to_nv12_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_motion_attenuation_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_motion_color_diff_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_motion_cost_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_motion_vector_diff_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_motion_vectors_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_sint16_ps.spv, it is a binary file.
+x64\Debug\resources\shaders\vulkan\unlit_vs.spv, it is a binary file.
+x64\Debug\resources\skeletons\vr_glove_left_skeleton.fbx, it is a binary file.
+x64\Debug\resources\skeletons\vr_glove_left_skeleton.glb, it is a binary file.
+x64\Debug\resources\skeletons\vr_glove_right_skeleton.fbx, it is a binary file.
+x64\Debug\resources\skeletons\vr_glove_right_skeleton.glb, it is a binary file.
+x64\Debug\resources\system.vrresources, code is 55, comment is 0, blank is 0.
+x64\Debug\resources\webhelperoverlays.json, code is 94, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\console\console.css, code is 262, comment is 0, blank is 56.
+x64\Debug\resources\webinterface\console\console.js, code is 598, comment is 70, blank is 127.
+x64\Debug\resources\webinterface\console\console_colors.js, code is 24, comment is 3, blank is 2.
+x64\Debug\resources\webinterface\console\index.html, code is 34, comment is 3, blank is 13.
+x64\Debug\resources\webinterface\dashboard\bindingcallouts.html, code is 28, comment is 0, blank is 7.
+x64\Debug\resources\webinterface\dashboard\bindingcallouts.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbinding.html, code is 24, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\controllerbinding.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.0e94d3a0a0fe7a4e0a8e.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.14902234684e40133cd3.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.34fdec8b6bba474c9c0a.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.3b7c83dabe19dc8de6e5.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.440db61bff735d4ccd86.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.479cf01a198fce86d786.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.4d7ddd6081b43c3d0ba0.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.5188f75a49d38fc891f2.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.61ac92685f80430db28b.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.6e8c11c0582d21f993d1.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.7e0e5c2ee744832f3a14.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.7fae82e8c2aad04ed314.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.83183e4ddac6cc95b864.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.8b03f7130057d52b7db1.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.9ebc604311f5abc62553.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.9fb2f6537fb847fecdc7.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.ad75be5a7ad9c6c96dd6.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.b8a96f4ccfba67dc9098.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.beedbc8bf8f8ec627a1e.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.c74584deb0c5e9f7d59d.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.ccf5d0e91465090663f2.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.d64f4c1d0033bc86473e.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.d6893fa530720a0f9539.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.dc282c1dea2be8a42999.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.ff6d5d86d75a99d6783c.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\controllerbindingui.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\css\base.css, code is 730, comment is 25, blank is 155.
+x64\Debug\resources\webinterface\dashboard\css\bindinglist.css, code is 150, comment is 0, blank is 29.
+x64\Debug\resources\webinterface\dashboard\css\controllerbinding.css, code is 1891, comment is 4, blank is 355.
+x64\Debug\resources\webinterface\dashboard\css\debugcommands.css, code is 403, comment is 5, blank is 63.
+x64\Debug\resources\webinterface\dashboard\css\empty.dir, code is 0, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\css\fonts\motiva_sans.css, code is 60, comment is 15, blank is 10.
+x64\Debug\resources\webinterface\dashboard\css\notifications.css, code is 84, comment is 0, blank is 9.
+x64\Debug\resources\webinterface\dashboard\css\quicklaunch.css, code is 122, comment is 0, blank is 30.
+x64\Debug\resources\webinterface\dashboard\css\quickstart.css, code is 0, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\css\systemreportviewer.css, code is 449, comment is 11, blank is 87.
+x64\Debug\resources\webinterface\dashboard\css\systemui.css, code is 2140, comment is 24, blank is 369.
+x64\Debug\resources\webinterface\dashboard\css\vrkeyboard.css, code is 143, comment is 5, blank is 22.
+x64\Debug\resources\webinterface\dashboard\css\vrmonitor.css, code is 297, comment is 2, blank is 84.
+x64\Debug\resources\webinterface\dashboard\css\vrsettings.css, code is 1766, comment is 17, blank is 320.
+x64\Debug\resources\webinterface\dashboard\debugcommands.html, code is 22, comment is 0, blank is 3.
+x64\Debug\resources\webinterface\dashboard\debugcommands.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\fallback.ad40c2dfe2b7abf13bd9.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\fallback.html, code is 105, comment is 0, blank is 13.
+x64\Debug\resources\webinterface\dashboard\fallback.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\appimage_default.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\appimage_default_portrait.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\background_dark_thumbnail.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\background_light_thumbnail.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\base.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_a.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_b.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_grip.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_menu.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_system.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_click.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_east.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_move.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_north.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_scroll.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_south.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_thumbstick_west.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_click.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_dpad_center.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_dpad_east.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_dpad_north.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_dpad_south.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_dpad_west.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_move.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_scroll.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_swipe_east.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_swipe_north.svg, code is 49, comment is 0, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_swipe_south.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackbutton_swipe_west.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_click.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_dpad_center.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_dpad_east.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_dpad_north.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_dpad_south.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_dpad_west.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_move.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_scroll.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_swipe_east.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_swipe_north.svg, code is 49, comment is 0, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_swipe_south.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trackpad_swipe_west.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_trigger.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_x.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\button_y.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_blank.svg, code is 66, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_button_a.svg, code is 91, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_button_b.svg, code is 91, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_button_x.svg, code is 91, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_button_y.svg, code is 91, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_dpad_center.svg, code is 74, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_dpad_east.svg, code is 74, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_dpad_north.svg, code is 73, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_dpad_south.svg, code is 73, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\icon_dpad_west.svg, code is 74, comment is 1, blank is 1.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\modifier_click.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\modifier_doubleclick.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\modifier_force.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\modifier_held.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\modifier_long.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingcallouts\modifier_touch.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_add.svg, code is 12, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_arrow_right.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_back.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_done.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_download.svg, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_edit.svg, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_edit_large.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_modal_edit_header.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_plus.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_publish.svg, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_settings.svg, code is 16, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\bindingui\icon_trash.svg, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0000.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0001.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0002.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0003.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0004.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0005.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0006.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\dynamictitle.0007.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\green_purple_background.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\back_arrow.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_battery_1.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_battery_2.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_battery_3.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_battery_4.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_charging.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_charging_red.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_empty.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_left.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_low.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\controller_model_right.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_camera.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_close.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_close_inverse.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_controls.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_controls.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_home.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_power.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_quit.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_settings.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_volume.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\icon_volume_mute.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\notification_steamcog.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\quicklaunch_play.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_app_quit.svg, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_chat.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_controller_charge.svg, code is 14, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_controller_power.svg, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_controller_quit.svg, code is 17, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_desktop.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_desktop_alt.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_desktop_white.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_eye.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_eye_alt.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_items.svg, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_keyboard.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_keyboard_alt.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_legacy.svg, code is 12, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_library.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_library_a.svg, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_library_b.svg, code is 16, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_library_c.svg, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_library_d.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_lightmode.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_lightmode_alt.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_menu.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_menu_a.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_menu_b.svg, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_menu_c.svg, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_menu_d.svg, code is 8, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_mic_active.svg, code is 12, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_mic_mute.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_more.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_more_alt.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_nightmode.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_play.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_power.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_power_alt.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_reset_tracking.svg, code is 14, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_settings.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_store.svg, code is 6, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_svr_quit.svg, code is 15, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_svr_quit_alt.svg, code is 12, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_svrhome_quit.svg, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_svrhome_quit_alt.svg, code is 12, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_volume.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_volume_mirror.svg, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_volume_mirror_mute.svg, code is 12, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\svr_volume_mute.svg, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\turnsignal.svg, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\icons\vr_steam.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\lens.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\rainbow.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\settings\background.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\settings\background_transparent.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\settings\chaperone_advanced.svg, code is 14, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\chaperone_beginner.svg, code is 44, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\chaperone_developer.svg, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\chaperone_intermediate.svg, code is 28, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\chaperone_squares.svg, code is 96, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_applications.svg, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_audio.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_basestation.svg, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_bluetooth.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_camera.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_chaperone.svg, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_close.svg, code is 7, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_general.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_home.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_power.svg, code is 9, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\settings\icon_video.svg, code is 3, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\steamvr_empty_app.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\vive_wand.svg, code is 10, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\images\vrkeyboard\del.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\vrkeyboard\return.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\vrkeyboard\shift.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\vrkeyboard\symbols.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\images\vrkeyboard\textinput_touchpointer.png, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\index.html, code is 13, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\ipd.6998cbf5d7ac1a38cad9.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\ipd.f780ad5b607efb9063e8.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\ipd.fbe02ea2ea1057938c9a.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\ipd.html, code is 62, comment is 0, blank is 9.
+x64\Debug\resources\webinterface\dashboard\ipd.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\keyboard.html, code is 29, comment is 0, blank is 7.
+x64\Debug\resources\webinterface\dashboard\keyboard.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_base_overlay.json, code is 83, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_brazilian_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_danish_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_dutch_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_english_overlay.json, code is 42, comment is 0, blank is 3.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_finnish_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_french_overlay.json, code is 255, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_german_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_hungarian_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_italian_overlay.json, code is 255, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_norwegian_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_polish_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_portuguese_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_romanian_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_russian_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_spanish_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_swedish_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_turkish_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\keyboards\layout_ukranian_overlay.json, code is 256, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\libraries.js, code is 10, comment is 95, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_brazilian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_bulgarian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_czech.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_danish.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_dutch.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_english.json, code is 474, comment is 0, blank is 64.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_finnish.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_french.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_german.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_greek.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_hungarian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_italian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_japanese.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_korean.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_latam.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_norwegian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_polish.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_portuguese.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_romanian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_russian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_schinese.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_spanish.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_swedish.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_tchinese.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_thai.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_turkish.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_ukrainian.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\bindingui_vietnamese.json, code is 474, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_brazilian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_bulgarian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_czech.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_danish.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_dutch.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_english.json, code is 57, comment is 0, blank is 11.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_finnish.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_french.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_german.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_greek.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_hungarian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_italian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_japanese.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_korean.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_koreana.json, code is 320, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_latam.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_norwegian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_pirate.json, code is 128, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_polish.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_portuguese.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_pseudo.json, code is 256, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_romanian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_russian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_schinese.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_spanish.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_swedish.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_tchinese.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_thai.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_turkish.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_ukrainian.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\dashboard_vietnamese.json, code is 57, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\empty.dir, code is 0, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_brazilian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_bulgarian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_czech.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_danish.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_dutch.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_english.json, code is 331, comment is 0, blank is 56.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_finnish.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_french.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_german.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_greek.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_hungarian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_italian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_japanese.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_korean.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_latam.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_norwegian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_polish.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_portuguese.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_romanian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_russian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_schinese.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_spanish.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_swedish.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_tchinese.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_thai.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_turkish.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_ukrainian.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\vrmonitor_vietnamese.json, code is 331, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_brazilian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_bulgarian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_czech.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_danish.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_dutch.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_english.json, code is 73, comment is 0, blank is 16.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_finnish.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_french.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_german.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_greek.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_hungarian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_italian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_japanese.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_korean.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_latam.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_norwegian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_polish.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_portuguese.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_romanian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_russian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_schinese.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_spanish.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_swedish.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_tchinese.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_thai.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_turkish.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_ukrainian.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\localization\webhelper_vietnamese.json, code is 73, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\messageoverlay.html, code is 28, comment is 0, blank is 7.
+x64\Debug\resources\webinterface\dashboard\messageoverlay.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\notificationtoast.html, code is 24, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\notificationtoast.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\powermenu.05b904ace7691740e45f.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\powermenu.68ef0b34fa76b5deed7a.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\powermenu.6c5d271131c63b6ba5e5.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\powermenu.html, code is 27, comment is 0, blank is 7.
+x64\Debug\resources\webinterface\dashboard\powermenu.js, code is 3, comment is 18, blank is 0.
+x64\Debug\resources\webinterface\dashboard\progressindicator.6cb7293008733c0f35b1.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\progressindicator.e437676aff111c68b57e.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\progressindicator.html, code is 12, comment is 0, blank is 1.
+x64\Debug\resources\webinterface\dashboard\progressindicator.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\scenegraphtest.8ecee483d21e1777382b.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\scenegraphtest.cf49b7385da682c1a81f.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\scenegraphtest.html, code is 11, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\dashboard\scenegraphtest.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\settings.8885903fa0306eadf894.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\settings.html, code is 24, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\settings.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\settings_desktop.html, code is 24, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\settings_desktop.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\sounds\activation.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\activation_change_fail.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dash_button_press.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dash_button_release.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dash_key_press_01.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dash_key_press_02.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dash_key_press_03.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_close.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_delete.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_failure.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_fiddle_01.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_fiddle_02.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_fiddle_03.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_fiddle_04.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_fiddle_grab.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_fiddle_release.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_idle.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_kill.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_launch.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_loaded.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_loading.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_open.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_theme_desktop.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_theme_library.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_theme_nowplaying.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_theme_settings.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_theme_store.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_volume.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_window_appear.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_window_dissapear.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_window_major_transition.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_window_notification.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\dashboard_window_transition.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\sounds\volume_change.wav, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\brazilian_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\danish_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\dutch_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\english_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\finnish_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\french_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\german_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\italian_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\norwegian_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\polish_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\portuguese_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\russian_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\spanish_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\suggestions\swedish_compiled_words.dict, it is a binary file.
+x64\Debug\resources\webinterface\dashboard\systemreportviewer.html, code is 11, comment is 0, blank is 4.
+x64\Debug\resources\webinterface\dashboard\systemreportviewer.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\systemui.5415c38d05b7aec0132c.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\systemui.91b383e807ab0798010c.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\systemui.html, code is 24, comment is 0, blank is 6.
+x64\Debug\resources\webinterface\dashboard\systemui.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.025395369b869c8a3e01.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.37c535066458e338b804.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.5c5f4b2676808cfcf457.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.658dc6e1c0b0b1d64e23.js, code is 1, comment is 5, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.9257401febb22d113e9a.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.ce94ac37c996cf5a5661.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.html, code is 24, comment is 0, blank is 7.
+x64\Debug\resources\webinterface\dashboard\vrmonitor.js, code is 1, comment is 4, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.01e0f40f6eff2d45ef64.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.3f7b933dfe4211c6f633.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.818f3c921b0d9a62ae60.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.b49471712d94fa005b2f.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.b96aeed388571ce90310.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.d228a298e7335231bd4e.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.fad85b136c0042a040e9.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_core.js, code is 14, comment is 48, blank is 0.
+x64\Debug\resources\webinterface\dashboard\vrwebui_shared.js, code is 1, comment is 6, blank is 0.
+x64\Debug\resources\webinterface\favicon.ico, it is a binary file.
+x64\Debug\resources\webinterface\fonts\empty.dir, code is 0, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\fonts\motiva-sans-black-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-black.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-bold-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\Motiva-Sans-Bold.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-extrabold-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-extrabold.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-light-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-light.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-medium-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-medium.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-regular-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\Motiva-Sans-Regular.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-thin-italic.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans-thin.ttf, it is a binary file.
+x64\Debug\resources\webinterface\fonts\motiva-sans.ttf, it is a binary file.
+x64\Debug\resources\webinterface\shared\css\steamvr.css, code is 312, comment is 3, blank is 109.
+x64\Debug\resources\webinterface\shared\images\steam_logo.svg, code is 1, comment is 0, blank is 0.
+x64\Debug\resources\webinterface\shared\images\steamvr.png, it is a binary file.
+x64\Debug\resources\webinterface\shared\images\triangle_down.png, it is a binary file.
+x64\Debug\resources\webinterface\shared\js\jquery-3.1.1.min.js, code is 3, comment is 2, blank is 0.
+x64\Debug\resources\webinterface\sounds\activation.wav, it is a binary file.
+x64\Debug\resources\webinterface\sounds\activation_change_fail.wav, it is a binary file.
+x64\Debug\resources\webinterface\sounds\volume_change.wav, it is a binary file.
+x64\Debug\resources\white.png, it is a binary file.
+x64\Debug\run.bat, code is 1, comment is 0, blank is 0.
+===============================================================================

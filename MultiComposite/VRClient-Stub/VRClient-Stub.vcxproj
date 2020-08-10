@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="VirtualCompositor.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_012.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_013.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_014.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_015.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_016.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_017.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_018.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_019.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_020.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_021.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_022.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_024.cpp" />
+    <ClCompile Include="VirtualCompositor\VirtualCompositor_026.cpp" />
+    <ClCompile Include="VirtualInput.cpp" />
+    <ClCompile Include="VirtualInput\VirtualInput_004.cpp" />
+    <ClCompile Include="VirtualInput\VirtualInput_005.cpp" />
+    <ClCompile Include="VirtualInput\VirtualInput_006.cpp" />
+    <ClCompile Include="VirtualInput\VirtualInput_007.cpp" />
+    <ClCompile Include="VirtualInput\VirtualInput_010.cpp" />
+    <ClCompile Include="VirtualRuntime.cpp" />
+    <ClCompile Include="VirtualSystem.cpp" />
+    <ClCompile Include="VRClient.cpp" />
+    <ClInclude Include="VirtualResources.cpp" />
+    <ClCompile Include="VirtualResources\VirtualResources_001.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_011.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_012.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_014.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_015.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_016.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_017.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_019.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_020.cpp" />
+    <ClCompile Include="VirtualSystem\VirtualSystem_021.cpp" />
+    <ClCompile Include="VRClient\VRClient_002.cpp" />
+    <ClCompile Include="VRClient\VRClient_003.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualCommon.h" />
+    <ClInclude Include="VirtualCompositor.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_012.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_013.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_014.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_015.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_016.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_017.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_018.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_019.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_020.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_021.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_022.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_024.h" />
+    <ClInclude Include="VirtualCompositor\VirtualCompositor_026.h" />
+    <ClInclude Include="VirtualInput.h" />
+    <ClInclude Include="VirtualInput\VirtualInput_004.h" />
+    <ClInclude Include="VirtualInput\VirtualInput_005.h" />
+    <ClInclude Include="VirtualInput\VirtualInput_006.h" />
+    <ClInclude Include="VirtualInput\VirtualInput_007.h" />
+    <ClInclude Include="VirtualInput\VirtualInput_010.h" />
+    <ClInclude Include="VirtualResources.h" />
+    <ClInclude Include="VirtualResources\VirtualResources_001.h" />
+    <ClInclude Include="VirtualRuntime.h" />
+    <ClInclude Include="VirtualSystem.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_011.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_012.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_014.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_015.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_016.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_017.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_019.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_020.h" />
+    <ClInclude Include="VirtualSystem\VirtualSystem_021.h" />
+    <ClInclude Include="VRClient.h" />
+    <ClInclude Include="VRClient\VRClient_002.h" />
+    <ClInclude Include="VRClient\VRClient_003.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9B1D2C73-43F3-4683-88FD-281026A9B983}</ProjectGuid>
+    <RootNamespace>VRClientStub</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="..\MultiComposite-Shared\MultiComposite-Shared.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)x64\$(Configuration)\bin</OutDir>
+    <TargetName>vrclient_x64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)x64\$(Configuration)\bin</OutDir>
+    <TargetName>vrclient_x64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)x64\$(Configuration)\bin</OutDir>
+    <TargetName>vrclient_x64</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)x64\$(Configuration)\bin</OutDir>
+    <TargetName>vrclient_x64</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)VRClient-Stub;$(SolutionDir)External\;$(SolutionDir)External\openvr\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)External\openvr\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)VRClient-Stub;$(SolutionDir)External\;$(SolutionDir)External\openvr\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)External\openvr\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)VRClient-Stub;$(SolutionDir)External\;$(SolutionDir)External\openvr\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)External\openvr\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)VRClient-Stub;$(SolutionDir)External\;$(SolutionDir)External\openvr\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)External\openvr\lib\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

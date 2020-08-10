@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Win32Ipc.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)IpcPipe.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VRIpcConstants.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IpcPipe.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IpcTools.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\VRClient-Stub\Logger.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VRIpcConstants.h" />
+  </ItemGroup>
+</Project>
