@@ -6,3 +6,6 @@ Requires you to edit %AppData%/../Local/OpenVR/OpenVR.VRSettings and edit it to 
 NOTE: Requires you to launch this before editting the path settings
 NOTE: Requires you to copy the resources folder from your steamvr installation to where your build is
 Note: Requires you to have the build in a bin folder because of how the steamvr installation works. DM me if anything is off
+
+#Credits
+Organization of the OpenVR interfaces were possible because of the OpenComposite project on gitlab at https://gitlab.com/znixian/OpenOVR/
